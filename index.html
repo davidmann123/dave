@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <script src="./functions.js"></script>
+</head>
+<body>
+    <div class = title >Model A Calculator</div> 
+    <table border=.5> 
+       <tr> 
+          <td colspan="4"><input type="text" id="screen"/></td> 
+       </tr> 
+        <tr> 
+        <td><input type="button" value="---" /> </td> 
+        <td><input type="button" value="---" /> </td> 
+        <td><input type="button" value="---"  /> </td> 
+        <td><input type="button" value="mult" onclick="display('*')" class="func-button" /> </td> 
+      </tr> 
+       <tr> 
+          <td><input type="button" value="1" onclick="display('1')"/> </td> 
+          <td><input type="button" value="2" onclick="display('2')"/> </td> 
+          <td><input type="button" value="3" onclick="display('3')"/> </td> 
+          <td><input type="button" value="div" onclick="display('/')" class="func-button"/> </td> 
+       </tr> 
+       <tr> 
+          <td><input type="button" value="4" onclick="display('4')"/> </td> 
+          <td><input type="button" value="5" onclick="display('5')"/> </td> 
+          <td><input type="button" value="6" onclick="display('6')"/> </td> 
+          <td><input type="button" value="sub" onclick="display('-')" class="func-button"/> </td> 
+       </tr> 
+       <tr> 
+          <td><input type="button" value="7" onclick="display('7')"/> </td> 
+          <td><input type="button" value="8" onclick="display('8')"/> </td> 
+          <td><input type="button" value="9" onclick="display('9')"/> </td> 
+          <td><input type="button" value="add" onclick="display('+')" class="func-button"/> </td> 
+       </tr> 
+       <tr> 
+          <td><input type="button" value="." onclick="display('.')"/> </td> 
+          <td><input type="button" value="0" onclick="display('0')"/> </td> 
+          <td><input type="button" value="=" onclick="equals()"/> </td> 
+          <td><input type="button" value="clr" onclick="clr()" class="func-button"/> </td> 
+
+       </tr> 
+    </table> 
+</body>
+</html>

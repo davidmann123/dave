@@ -1,0 +1,25 @@
+.title{ 
+margin-bottom: 10px; 
+text-align:center; 
+width: 200px; 
+color:black; 
+border: solid black 2px; 
+} 
+
+input[type="button"] 
+{ 
+background-color:seashell; 
+color: black; 
+width:100% 
+} 
+
+input[type="text"] 
+{ 
+background-color:seashell; 
+border:  black 2px; 
+}
+
+.func-button{
+font-size: 80%;
+padding: 1px;
+}
