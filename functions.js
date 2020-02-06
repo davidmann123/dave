@@ -1,16 +1,21 @@
-function display(val) 
-{ 
+function display(val){ 
     document.getElementById("screen").value+=val 
 } 
   
-function equals() 
-{ 
+function equals(){ 
     let x = document.getElementById("screen").value 
     let y = eval(x) 
     document.getElementById("screen").value = y 
 } 
   
-function clr() 
-{ 
+function clr(){ 
     document.getElementById("screen").value = "" 
 } 
+
+function save(){
+    document.getElementById("screen").value = y
+}
+
+function load(){
+    console.log(value)
+}

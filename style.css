@@ -1,25 +1,33 @@
 .title{ 
 margin-bottom: 10px; 
 text-align:center; 
-width: 200px; 
-color:black; 
+font-style: italic;
+font-weight: bold;
+width: 240px; 
+color:white; 
 border: solid black 2px; 
-} 
-
+background-color: black;
+}
 input[type="button"] 
 { 
-background-color:seashell; 
-color: black; 
-width:100% 
+background-color: black;
+color: white; 
+font-weight: bold;
+width:100%;
 } 
-
 input[type="text"] 
 { 
-background-color:seashell; 
-border:  black 2px; 
+border:  black ; 
+height: 30px;
+font-size: larger;
+color: black;
 }
-
 .func-button{
 font-size: 80%;
 padding: 1px;
+}
+.borderStyle{
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
 }
