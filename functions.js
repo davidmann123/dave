@@ -11,11 +11,3 @@ function equals(){
 function clr(){ 
     document.getElementById("screen").value = "" 
 } 
-
-function save(){
-    document.getElementById("screen").value = y
-}
-
-function load(){
-    console.log(value)
-}

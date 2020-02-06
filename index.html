@@ -7,10 +7,9 @@
     <script src="./functions.js"></script>
 </head>
 <body>
-
     <div class = title >Model A Calculator</div> 
     <div>
-    <table class="borderStyle" background="black.png">
+    <table class="borderStyle" background="black.png" class="floatLeft">
        <tr> 
           <td colspan="4" height="30"><input type="text" id="screen"/></td> 
        </tr> 
@@ -43,11 +42,24 @@
           <td><input type="button" value="0" onclick="display('0')" id=colorbutton/> </td> 
           <td><input type="button" value="=" onclick="equals()" id=colorbutton/> </td> 
           <td><input type="button" value="clr" onclick="clr()" class="func-button" id=colorbutton/> </td> 
-
        </tr> 
     </table> 
    </div>
-
-  
+   <script>
+      var colors = ["red", "blue", "green","white", "black", "gray"];
+      var colorIndex = 0;
+      function changeColor() {
+          var col = document.getElementById("body");
+          if( colorIndex >= colors.length ) {
+              colorIndex = 0;
+          }
+          col.style.backgroundColor = colors[colorIndex];
+          colorIndex++;
+      }
+  </script>
+      <body id='body'>
+      <button onclick="changeColor();" class="func-button" float=right>Change color</button>
+      </body>
+   </table>
 </body>
 </html>

@@ -25,9 +25,21 @@ color: black;
 .func-button{
 font-size: 80%;
 padding: 1px;
+background-color: black;
+color: white; 
+font-weight: bold;
+width:100%;
 }
 .borderStyle{
     border-style: solid;
     border-color: black;
     border-radius: 15px;
+}
+
+.floatRight{
+float: right;
+}
+
+.floatLeft{
+    float: left;
 }
